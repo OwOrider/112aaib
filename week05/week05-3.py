@@ -1,4 +1,9 @@
-word1 = 'abc'
-word2 = 'xyz'
-ans = word1[0] +word2[0] + word1[1] + word2[1] + word1[2] + word2[2]
-print(ans)
+a = int( input() )
+
+b = a//50
+
+c = a%50//5
+
+d = a%5//1
+
+print(f'{a}=50*{b}+5*{c}+1*{d}'  )
